@@ -36,6 +36,8 @@ services:
      - dev
     hostname: dn0
     domainname: dev
+#    volumes:
+#     - /srv/hdp/hdfs:/hadoop/hdfs
     ports:
      # ZooKeeper
      - "2181:2181"
